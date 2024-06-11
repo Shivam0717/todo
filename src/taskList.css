@@ -1,0 +1,34 @@
+.visible-scrollbar,
+.invisible-scrollbar,
+.mostly-customized-scrollbar {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  height: 222px;
+  padding: 1em;
+  margin: 1em auto;
+  /* outline: 2px dashed cornflowerblue; */
+}
+
+.right-bottom{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  
+}
+
+.invisible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Demonstrate a "mostly customized" scrollbar
+ * (won't be visible otherwise if width/height is specified) */
+.mostly-customized-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #aaa; /* or add it to the track */
+}
+
+/* Add a thumb */
+.mostly-customized-scrollbar::-webkit-scrollbar-thumb {
+  background: #000;
+}

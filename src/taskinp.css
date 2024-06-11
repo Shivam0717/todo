@@ -1,0 +1,13 @@
+.prior:hover{
+    cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+    .task{
+        
+        width: 90% !important;
+        font-size: 12px !important;
+          
+      }
+      
+  
+  }

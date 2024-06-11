@@ -1,0 +1,121 @@
+*{
+  padding: 0;
+}
+
+.container{
+  width: 1000px;
+  height: 550px;
+  background-color: rgba(160,32,240,0.5);
+  margin-top: 80px;
+  border-radius: 25px;
+}
+.container-fluid{
+  width: 1000px;
+  height: 550px;
+  background-color: rgba(160,32,240,0.5);
+  margin-top: 100px;
+  border-radius: 25px;
+}
+.left{
+  width: 27%;
+  height: 100%;
+
+}
+.right{
+  width: 70%;
+}
+.left-up{
+  width: 100%;
+  height: 120px;
+}
+.quote{
+  width: 70%;
+}
+.task:focus {
+  border: none;
+  outline: none;
+}
+.set:hover{
+  background-color: rgba(0,0,0,0.6) !important;
+  color:white  !important
+}
+
+.set1{
+  height:"40px";
+   width:"140px";
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 760px) {
+  .container1{
+    width: 100% !important;
+    height: 500px !important;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .left,.left-down{
+    display: flex;
+    flex-direction: row !important;
+  }
+  .left,.left-down{
+    height: 110px !important;
+
+  }
+  .left-down{
+    padding: 0 !important;
+  }
+  .traf{
+    display: flex;
+  }
+  .lout{
+    display: none;
+  }
+   .set1{
+    display: flex  !important;
+    width: 130px !important;
+    padding-left: 0  !important;
+  }
+  .quote{
+    width: 60%;
+  }
+  
+}
+@media screen and (max-width: 480px) {
+  .left{
+    display: flex;
+    width: 100%;
+    border-bottom: 3px solid black;
+  }
+  .left-up{
+    border: none !important;
+  }
+  
+  
+  .container1{
+    width: 100% !important;
+    height: 750px !important;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .hh{
+    display: none !important;
+  }
+  .container-fluid{
+    width: 100% !important;
+    height: 60px !important;
+  }
+  .right{
+    width: 100% !important;
+  }
+  .lets{
+    font-size: 16px !important ;
+  }
+  .tw{
+    font-size: 12px  !important;
+  }
+   .prr{
+    display: flex !important;
+   }
+}

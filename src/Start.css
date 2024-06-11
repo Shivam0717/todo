@@ -1,0 +1,24 @@
+.log{
+  height: 450px;
+  background-color: black;
+  width: 50%;
+    
+}
+.img{
+    width: 10%  !important;
+}
+.set2:hover{
+    background-color: grey  !important;
+}
+@media screen and (max-width: 480px) {
+    .log{
+        height: 450px;
+        background-color: black;
+        width: 90%;
+          
+      }
+      .img{
+        width: 30%  !important;
+    }
+  
+  }

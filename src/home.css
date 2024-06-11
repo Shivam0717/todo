@@ -1,0 +1,14 @@
+@media screen and (max-width: 480px) {
+    .left {
+      display: none;
+    
+    }
+    .container2{
+      width: 90% !important;
+      height: 440px !important;
+    }
+  
+  }
+  a:hover{
+    cursor: pointer;
+  }
