@@ -37,7 +37,7 @@ function TASKINPUT(){
 
     //add to list (task is sent to action in redux)
     function addToList(){
-        const key=`u${genRadom()}`
+        const key=`u${genRadom()}` 
         if(pri!==""){
           dispatch(addNew({task:task, priority:pri, key:key}))
           toast.success("Task added")
