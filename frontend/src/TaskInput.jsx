@@ -31,13 +31,13 @@ function TASKINPUT(){
 
     const dispatch=useDispatch()
 
-    function genRadom() {
+    function geRadom() {
       return Math.floor(1000 + Math.random() * 9000);
   }
 
     //add to list (task is sent to action in redux)
     function addToList(){
-        const key=`u${genRadom()}` 
+        const key=`u${ath.floor(1000 + Math.random() * 9000)}` 
         if(pri!==""){
           dispatch(addNew({task:task, priority:pri, key:key}))
           toast.success("Task added")
